@@ -1,0 +1,10 @@
+/*
+This CSS file is pretty much just functioning as a "TODO" list for the whole codebase, as it's not really getting used for any CSS right now.
+
+TODO:
+- Put the current progress onto my GitHub portfolio! :) B.A.E..
+- Make markers resize (pixel-wise) as the user zooms in & out on the Leaflet map?
+    https://gis.stackexchange.com/questions/216558/leaflet-resize-markers-in-layer-when-zoom-in
+- Idea: Instead of making the markers change color according to how many digits they have in standard base10, make them change color according to bit2... because, I'm more interested in when a number is double another number. This would make for a more granular gradient. Perhaps this could be done using bitwise operators? And/or, perhaps this could be done by altering the piece of code that's currently in the codebase, to do the base10-digit-counting?
+- Clickable markers?
+*/

@@ -1,0 +1,32 @@
+Freeform .txt file
+
+NOW TODO:
+- Do an animation, just between two time intervals.
+
+
+
+LATER TODO:
+- Hover-info : When I hover the cursor over a station, I want it to easily give a little blurb on it, maybe just the title of the station or something. The description goes away when I move the mouse away from it.
+- Click-info : When I click on a station, something happens.
+    - Helloworld on this feature : Just make anything happen.
+    - Station grows a little bit, on the Leaflet map.
+- Do a 'proper' Python EDA
+
+
+???
+This is a matter of decisiveness: What features do I want?
+The choice I make will dictate how I pipe the data around.
+
+animation *
+
+I'm still trying to eschew decisiveness, and look into how much data there is total.
+(Maximum limit would be 10million rows, assuming I end up using Heroku Postgres)
+GLOSS:
+animation
+UTILITY:
+looking up exact facts about a specific station or location
+
+!!!idea: Pruning.
+Only concern myself with spots where there's actually motion;
+that'll decrease the amount of rows specifically.
+Let's say, <100 occurences happened at that place? It doesn't get marked.

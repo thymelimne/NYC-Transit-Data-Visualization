@@ -8,21 +8,26 @@
     integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
     crossorigin=""></script>
 
-    <!--Defining my own parameters-->
-    <style>
-        #map {
-            height: 720px;
-        }
-    </style>
-    <link rel="stylesheet" href="src/styles.css">
-    
-</head>
+    <!--Including chroma-js, for coloring-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js" 
+    integrity="sha512-yocoLferfPbcwpCMr8v/B0AB4SWpJlouBwgE0D3ZHaiP1nuu5djZclFEIj9znuqghaZ3tdCMRrreLoM8km+jIQ==" 
+    crossorigin="anonymous"></script>
 
+    <!--Including local stylesheet-->
+    <link rel="stylesheet" href="src/styles.css">
+
+</head>
 <body>
+
     <h1> All NYC Citibike stations that were docked in in April 2020: </h1>
     <div id="map"></div> 
 
     <!--Scripts-->
-    <script src="src/scripts.js"></script>
+    <script src="src/js/which_data.js"></script>
+    <script src="src/js/map.js"></script>
+    <script src="src/js/colors.js"></script>
+    <script src="src/js/station.js"></script>
+    <script src="src/js/stations.js"></script>
+
 </body>
 </html>

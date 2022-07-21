@@ -2,7 +2,9 @@ Freeform .txt file
 
 NOW TODO:
 - Do an animation, just between two time intervals.
-
+- Wire in accommodations for the new selection.js (It's been written -- just wire it in so that it works with the rest of the program.)
+    - Create marker.initialSize() function
+    - Create marker.selectionSize() function
 
 
 LATER TODO:
@@ -10,12 +12,20 @@ LATER TODO:
 - Click-info : When I click on a station, something happens.
     - Helloworld on this feature : Just make anything happen.
     - Station grows a little bit, on the Leaflet map.
-- Do a 'proper' Python EDA
+- Do a 'proper' Python EDA:
+    - When is biking more prevalent?
+        - In May 2022, the most populated bike station seems to be the one that's (I think) near the Staten Island Ferry, or maybe that's the Far Rockaway beach ferry (or, it's both?) Are people biking there during weekdays, or is it mostly for a fun month-of-May weekend jaunt to the beach?
+            - Also noticable on the Leaflet for this month, is a small cluster of rides around one of the bridges, on the non-Manhattan side. Is this just hipsters taking weekend jaunts? Or, is it during the work week?
+        - If biking really is mostly for weekend fun stuff, is MTA different?
+            - Do people bike to fun stuff more and MTA to boring work stuff more?
+                - Could this be modeled in some way? Should it be? Or, is a visuals-based answer enough? (Of course, it'll be the first resort anyway.)
+- Merge dots based on vertical-horizontal squares of pixels (like, a grid). This'll vary based on zoom level, of course.
+- Add an option to draw polygons of neighborhoods (instead of markers), and color them according to how many rides occured within them, during such time period.
 
 
 ???
 This is a matter of decisiveness: What features do I want?
-The choice I make will dictate how I pipe the data around.
+The choice I make will dictate how I pipe the data around. i/
 
 animation *
 
@@ -26,7 +36,7 @@ animation
 UTILITY:
 looking up exact facts about a specific station or location
 
-!!!idea: Pruning.
+!!!idea: Pruning. i/
 Only concern myself with spots where there's actually motion;
 that'll decrease the amount of rows specifically.
 Let's say, <100 occurences happened at that place? It doesn't get marked.

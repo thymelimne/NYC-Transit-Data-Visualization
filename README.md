@@ -1,4 +1,4 @@
-# The Breathing City (working title): An app to explore NYC's transit data.
+# The Breathing City, an app to explore NYC's transit data.
 
 #### Inspired by "The City is Alive" by Justin Fung: https://github.com/citrusvanilla/manhattanpopulationexplorer . While that project was already great, it was made pre-Covid. This new project will set out to provide a comparison between pre-and-post-Covid NYC, by its travel patterns.
 
